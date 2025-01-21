@@ -92,5 +92,27 @@ ALTER TABLE layoffs_staging2
 MODIFY COLUMN `date` DATE;
 
 # Task 4 - Dealing with Nulls and Blanks
+SELECT *
+FROM layoffs_staging2
+WHERE industry IS NULL OR industry = '';
+
+UPDATE layoffs_staging2
+SET industry = 'Travel'
+WHERE company = 'Airbnb'; 
+
+SELECT DISTINCT company, industry
+FROM layoffs_staging2;
+
+SELECT *
+FROM layoffs_staging2
+WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL; 
+
+DELETE
+FROM layoffs_staging2
+WHERE total_laid_off IS NULL AND percentage_laid_off IS NULL; 
+
+# Task 5 - removing columns
+ALTER TABLE layoffs_staging2
+DROP COLUMN row_num; 
 
 
