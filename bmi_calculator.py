@@ -20,7 +20,7 @@ def calculate_bmi(weight, height):
 
 def main():
     st.set_page_config(page_title="BMI Calculator", page_icon="💪")
-    st.title("💪 Body Mass Index (BMI) Calculator")
+    st.title("Body Mass Index (BMI) Calculator")
 
     # User inputs
     name = st.text_input("Enter your name:")
