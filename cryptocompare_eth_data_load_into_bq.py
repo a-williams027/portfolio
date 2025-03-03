@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
-"""CryptoCompare ETH Data Load into BQ.ipynb
-
-
-Original file is located at
-    https://colab.research.google.com/drive/12z0Wvz7WA2y8lM_M7o8cqd6gzEXL2EuB
-
-# Welcome to Colab Enterprise <img src="https://lh3.googleusercontent.com/UiNooY4LUgW_oTvpsNhPpQzsstV5W8F7rYgxgGBD85cWJoLmrOzhVs_ksK_vgx40SHs7jCqkTkCk=e14-rj-sc0xffffff-h130-w32" alt="Vertex AI logo">
+CryptoCompare ETH Data Load into BQ
 
 Connect to a Runtime and begin!
 
